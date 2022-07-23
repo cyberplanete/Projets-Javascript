@@ -7,10 +7,10 @@ function sayHello(prenom) {
 }
 
 
-// addition(10,10);
-// function addition(nombreUn, nombreDeux) {
+addition(10,10);
+function addition(nombreUn, nombreDeux) {
 
-//     console.log(nombreUn + nombreDeux);
+    console.log(nombreUn + nombreDeux);
 
-// }
+}
 

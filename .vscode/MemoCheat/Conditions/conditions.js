@@ -1,4 +1,4 @@
-let consommable = "carotte";
+let consommable = "tomate";
 
 switch (consommable) {
     case "banane":
@@ -13,3 +13,14 @@ switch (consommable) {
         console.log("ceci n'est pas un légume, ni un fruit");
         break;
 }
+
+let x = prompt('Veuillez donner un chiffre !!') || "6";
+//let x=6;
+if (x > 3) {
+    console.log('x est supérieur à 3');
+} else {
+    console.log('x est inférieur à 3');
+}
+
+
+ return x > 3 ? console.log('x est supérieur à 3') : console.log('x est inférieur à 3');

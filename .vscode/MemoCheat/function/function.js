@@ -31,3 +31,13 @@ let resultat = nombreGateaux * (preparation + cuisson);
 let tempsPreparationChocolat = cuisiner(4);
 let tempsPreparationFraisier = cuisiner(1);
 console.log(tempsPreparationChocolat + tempsPreparationFraisier);
+
+
+let fonctionAnonyme =  function() {
+    console.log("je suis une fonction anonyme");
+
+};
+
+fonctionAnonyme();
+
+(function(){console.log('je suis une fonction anonyme');})();

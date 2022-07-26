@@ -5,6 +5,9 @@ askAge();
 function askAge()
 {
    age = prompt("Quel est votre age?");
+//    age = parseInt(age);
+//    age = parseFloat(age);
+//    age = Number(age);
   
 }
 

@@ -65,3 +65,13 @@ console.log("#Retrait du poste avec delete ");
 delete(monTableauAssociatif.Poste);
 console.log(monTableauAssociatif);
 
+
+//Utilisation de splice
+console.log("#################################### MonTableau2D - SPLICE ##################################");
+console.log('Suppression de Mark');
+console.log(monTableau2D);
+monTableau2D[0].splice(0,1);
+console.log(monTableau2D);
+console.log("Ajout d'une liste de mot comme troisième tableau");
+monTableau2D.splice(0,0,['toto','titi']);
+console.log(monTableau2D);

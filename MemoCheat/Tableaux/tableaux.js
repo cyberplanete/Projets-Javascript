@@ -75,3 +75,7 @@ console.log(monTableau2D);
 console.log("Ajout d'une liste de mot comme troisième tableau");
 monTableau2D.splice(0,0,['toto','titi']);
 console.log(monTableau2D);
+
+let monTirageDuLoto = [01, 25, 33, 40, 48, 08];
+monTirageDuLoto.splice(0, 2, 48, 54);
+console.log(monTirageDuLoto);

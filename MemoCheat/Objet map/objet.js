@@ -1,12 +1,11 @@
-let nombres = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,10,5,6];
-let monSet = new Set(nombres);
+let utilisateurs = new Map();
 
-console.log(monSet); 
-monSet.add(11);
-console.log(monSet);
-monSet.delete(11);
-console.log(monSet);
-console.log(monSet.has(11));
-console.log(monSet.size);
-console.log(monSet.has(10));
-console.log(monSet.values());
+
+utilisateurs.set('Bill', {'nom': 'Gates', 'age': 23});
+
+
+utilisateurs.set('Mark', {'nom': 'Zuckerberg', 'age': 23});
+
+for (let [key, value] of utilisateurs) {
+    console.log(key + ': ' + value.nom + ' ' + value.age);
+}

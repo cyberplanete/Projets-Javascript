@@ -10,3 +10,6 @@ voitures.add(voiture3);
 console.log(voitures);// on affiche le set
 
 voitures.delete(voiture1);// on supprime l'objet du set
+
+
+//Unlike Sets, WeakSets are not iterable.

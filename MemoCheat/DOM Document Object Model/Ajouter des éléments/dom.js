@@ -39,6 +39,21 @@ document.body.append(nouveauParagraphe);// add the new paragraph element to the 
 // Ajouter des éléments objets header
 let nouveauHeader = document.createElement('header');// create a new header element
 nouveauHeader.textContent = 'Mon header';// change the text content of the new header element
-nouveauHeader.innerHTML = 'Mon <span>header</span>';// change the html content of the new header element
-document.body.append(nouveauHeader);// add the new header element to the end of the body element
+nouveauHeader.innerHTML = 'Mon <span>header</span>';// change the html content of the new header elemen
+document.body.append('<header>Mon header 2</header>');// add the new header element to the end of the body element
+document.body.appendChild(nouveauHeader);// add the new header element to the end of the body element
+
+
+// Ajouter des éléments objets div  
+let nouveauDiv = document.createElement('div');// create a new div element
+nouveauDiv.textContent = 'Mon div';// change the text content of the new div element
+nouveauDiv.innerHTML = 'Mon <span>div</span>';// change the html content of the new div element
+document.body.append(nouveauDiv);// add the new div element to the end of the body element
+
+document.querySelector('container').append(nouveauDiv);// add the new div element to the end of the container element
+
+
+
+
+
 

@@ -1,11 +1,11 @@
-console.log('test');
+console.log('test');// on affiche un message
 
-let age = prompt("Quel est votre age");
+let age = prompt("Quel est votre age");// on demande à l'utilisateur de saisir son age
 
-alert("votre age est: " + age);
+alert("votre age est: " + age);// on affiche un message
 
 //alert('coucou');
-if (confirm('Voulez vous ne pas confirmer ?')) 
+if (confirm('Voulez vous ne pas confirmer ?')) // si l'utilisateur clique sur OK
 {
-alert('ok');
-}else {alert('Ok annuler');}
+alert('ok');// on affiche un message
+}else {alert('Ok annuler');}// sinon on affiche un message

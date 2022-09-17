@@ -1,7 +1,7 @@
+
 let chien = { race: 'Shiba', poil: 'Court', aboyer:'whouaf whouaf' };
 
 let aboyer = () => chien.aboyer;
-
 console.log(aboyer());
 
 

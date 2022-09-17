@@ -1,7 +1,7 @@
 function addition(...nombres) // rest parameter
 {
     let total = 0;
-    for (let nombre of nombres) {
+    for (let nombre of nombres) {// on parcourt le tableau
         total += nombre;// on additionne les nombres
     }
     return total;// on retourne le total
